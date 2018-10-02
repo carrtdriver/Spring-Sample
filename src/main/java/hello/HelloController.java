@@ -12,7 +12,7 @@ public class HelloController {
         style += "body { background-color: purple; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 250%; }";
         style += "</style>";
         
-        String message = "Hello Washington DC";
+        String message = "Scale DevOps Success Today";
         
         String body = "<body>" + message + "</body>";
 
