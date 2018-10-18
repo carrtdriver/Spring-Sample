@@ -17,6 +17,7 @@ stages:
   - build
   - test
   - review
+  - mvn-deploy
   - dast
   - staging
   - canary
@@ -37,6 +38,17 @@ build:
   only:
     - branches
 
+pkg-deploy:
+  stage: mvn-deploy
+  image: maven:3.3.9-jdk-8
+  script:
+    - 'cp ci_settings.xml /root/.m2/settings.xml'
+    - 'sed -i "s/CI_JOB_TOKEN/${CI_JOB_TOKEN}/g" /root/.m2/settings.xml'
+    - 'sed -i "s/PROJECT_ID/${CI_PROJECT_ID}/g" pom.xml'
+    - 'mvn deploy'
+  only:
+    - master
+    
 .test:
   services:
     - postgres:latest
