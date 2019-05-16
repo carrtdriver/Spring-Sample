@@ -13,7 +13,7 @@ public class HelloController {
         style += "</style>";
         
         String message = "Hello from GitLab via Java Maven";
-        
+         String message = "Hello from GitLab via Java Maven";
         String body = "<body>" + message + "</body>";
 
         return style + body;
