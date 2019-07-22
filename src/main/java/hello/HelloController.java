@@ -9,10 +9,10 @@ public class HelloController {
     @RequestMapping("/")
     public String index() {
         String style = "<style type='text/css' media='screen'>";
-        style += "body { background-color: orange; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 250%; }";
+        style += "body { background-color: blue; position: fixed; top: 25%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 250%; }";
         style += "</style>";
         
-        String message = "Summit Greetings from GitLab!";
+        String message = "Thank you for attending this Product Overview!";
         
         String body = "<body>" + message + "</body>";
 
