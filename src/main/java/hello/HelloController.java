@@ -12,7 +12,7 @@ public class HelloController {
         style += "body { background-color: orange; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 250%; }";
         style += "</style>";
         
-        String message = "Summit Greetings from GitLab!";
+        String message = "Summit Greetings from GitLab!!!";
         
         String body = "<body>" + message + "</body>";
 
