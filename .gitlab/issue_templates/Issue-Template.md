@@ -16,7 +16,7 @@ EXAMPLE TABLE
 |-----------------------------------------|---------------------------------------------------|
 | **Feature name**                        | Login                                             |
 | **Functional section**                  | User Interface                                    |
-| **Requested by**                        | @joemckairnes                                     |
+| **Requested by**                        | @somebody                                    |
  
 
 * [ ] Exploration phase
