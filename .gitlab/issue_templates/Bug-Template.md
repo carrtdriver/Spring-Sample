@@ -25,7 +25,7 @@ EXAMPLE TABLE
 |-----------------------------------------|---------------------------------------------------|
 | **Bug name**                            | Login                                             |
 | **Functional section**                  | User Interface                                    |
-| **Requested by**                        | @joemckairnes                                          |
+| **Requested by**                        | @Someone                                          |
  
 
 * [ ] Replicate phase
