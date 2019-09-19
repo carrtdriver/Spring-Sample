@@ -13,7 +13,7 @@ public class HelloController {
         style += "</style>";
         
         String message = "Have a spooky and safe Halloween from GitLab!";
-        
+        // TO DO: add ASCII image of a pumpkin to page        
         String body = "<body>" + message + "</body>";
 
         return style + body;
